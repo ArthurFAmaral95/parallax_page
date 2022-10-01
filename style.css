@@ -1,0 +1,84 @@
+/* ##### GENERAL #####*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 100%;
+}
+
+/* ##### IMAGES #####*/
+
+.image{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  opacity: 0.7;
+}
+
+.img1 {
+  background-image: url(./images/street.jpeg);
+  min-height: 100vh;
+}
+
+.img2 {
+  background-image: url(./images/lights.jpeg);
+}
+
+.img3 {
+  background-image: url(./images/aerial.jpeg);
+}
+
+.img2, .img3 {
+  min-height: 40rem;
+}
+
+.image div {
+ position: absolute;
+ align-items: center;
+ top: calc(50% - 3.8rem);
+ left: calc(50% - 19.2rem);  
+}
+
+.image p {
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 2rem;
+  letter-spacing: 0.8rem;
+  color: white;
+
+}
+
+.img1 p {
+  background-color: #111;
+}
+
+/* ##### SECTIONS #####*/
+
+section {
+  text-align: center;
+  padding: 5rem;
+  background-color: gainsboro;
+  opacity: 0.5;
+}
+
+section h1 {
+  padding-block: 2rem;
+  font-size: 2.5rem;
+}
+
+section p {
+  line-height: 3rem;
+  font-size: 2rem;
+}
